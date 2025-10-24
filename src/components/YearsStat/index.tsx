@@ -30,9 +30,7 @@ const YearsStat = ({
   return (
     <div className="w-full pb-16 pr-16 lg:w-full lg:pr-16">
       <section className="pb-0">
-        <p className="leading-relaxed">
-          {infoMessage}
-          <br />
+        <p className="leading-relaxed" dangerouslySetInnerHTML={{__html:infoMessage}}>
         </p>
       </section>
       <hr />
