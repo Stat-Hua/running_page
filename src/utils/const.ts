@@ -31,7 +31,7 @@ const USE_GOOGLE_ANALYTICS = false;
 const GOOGLE_ANALYTICS_TRACKING_ID = '';
 
 // styling: set to `true` if you want dash-line route
-const USE_DASH_LINE = true;
+const USE_DASH_LINE = false;
 // styling: route line opacity: [0, 1]
 const LINE_OPACITY = 0.4;
 // styling: map height - responsive design
@@ -180,11 +180,11 @@ export const COUNTRY_FILL_COLOR = dark_vanilla;
 
 // Static color constants
 export const RUN_COLOR_LIGHT = '#47b8e0';
-export const RUN_COLOR_DARK = MAIN_COLOR;
+export const RUN_COLOR_DARK = '#E8B07D';
 
 // Single run animation colors
-export const SINGLE_RUN_COLOR_LIGHT = '#52c41a'; // Green for light theme
-export const SINGLE_RUN_COLOR_DARK = '#ff4d4f'; // Red for dark theme
+export const SINGLE_RUN_COLOR_LIGHT = '#E8B07D'; // Light muted orange for light theme
+export const SINGLE_RUN_COLOR_DARK = '#E8B07D'; // Light muted orange for dark theme
 
 // Helper function to get theme-aware RUN_COLOR
 export const getRuntimeRunColor = (): string => {
@@ -219,25 +219,25 @@ export const getRuntimeSingleRunColor = (): string => {
 };
 
 // Legacy export for backwards compatibility
-export const RUN_COLOR = '#47b8e0';
-export const RUN_TRAIL_COLOR = 'rgb(255,153,51)';
-export const CYCLING_COLOR = 'rgb(51,255,87)';
+export const RUN_COLOR = '#E8B07D';
+export const RUN_TRAIL_COLOR = 'rgba(183, 186, 3, 1)';
+export const CYCLING_COLOR = 'rgba(19, 160, 3, 1)';
 export const HIKING_COLOR = 'rgb(151,51,255)';
 export const WALKING_COLOR = HIKING_COLOR;
 export const SWIMMING_COLOR = 'rgb(255,51,51)';
 
 // map tiles vendor, maptiler or mapbox or stadiamaps
 // if you want to use maptiler, set the access token in MAP_TILE_ACCESS_TOKEN
-export const MAP_TILE_VENDOR = 'mapbox';
+export const MAP_TILE_VENDOR = 'maptiler';
 
 // map tiles style name, see MAP_TILE_STYLES for more details
-export const MAP_TILE_STYLE_LIGHT = 'light-v10';
-export const MAP_TILE_STYLE_DARK = 'dark-v10';
+export const MAP_TILE_STYLE_LIGHT = 'streets-light';
+export const MAP_TILE_STYLE_DARK = 'streets-dark';
 
 // access token. you can apply a new one, it's free.
-// maptiler: Gt5R0jT8tuIYxW6sNrAg | sign up at https://cloud.maptiler.com/auth/widget
-// stadiamaps: 8a769c5a-9125-4936-bdcf-a6b90cb5d0a4 | sign up at https://client.stadiamaps.com/signup/
-export const MAP_TILE_ACCESS_TOKEN = 'Gt5R0jT8tuIYxW6sNrAg';
+// maptiler: sign up at https://cloud.maptiler.com/auth/widget to get your own token
+// stadiamaps: sign up at https://client.stadiamaps.com/signup/ to get your own token
+export const MAP_TILE_ACCESS_TOKEN = 'J31Liuyjh4pneX0Zua4R'; // 请将这里替换为您的 MapTiler API key
 
 export const MAP_TILE_STYLES = {
   maptiler: {
