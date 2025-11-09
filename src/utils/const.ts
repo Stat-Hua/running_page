@@ -221,7 +221,7 @@ export const getRuntimeSingleRunColor = (): string => {
 // Legacy export for backwards compatibility
 export const RUN_COLOR = '#E8B07D';
 export const RUN_TRAIL_COLOR = 'rgba(183, 186, 3, 1)';
-export const CYCLING_COLOR = 'rgba(19, 160, 3, 1)';
+export const CYCLING_COLOR = 'rgba(245, 0, 225, 1)';
 export const HIKING_COLOR = 'rgb(151,51,255)';
 export const WALKING_COLOR = HIKING_COLOR;
 export const SWIMMING_COLOR = 'rgb(255,51,51)';
