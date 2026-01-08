@@ -180,7 +180,7 @@ export const COUNTRY_FILL_COLOR = dark_vanilla;
 
 // Static color constants
 export const RUN_COLOR_LIGHT = '#47b8e0';
-export const RUN_COLOR_DARK = '#E8B07D';
+export const RUN_COLOR_DARK = '#98e87dff';
 
 // Single run animation colors
 export const SINGLE_RUN_COLOR_LIGHT = '#E8B07D'; // Light muted orange for light theme
@@ -219,10 +219,10 @@ export const getRuntimeSingleRunColor = (): string => {
 };
 
 // Legacy export for backwards compatibility
-export const RUN_COLOR = '#E8B07D';
+export const RUN_COLOR = '#a1e87dff';
 export const RUN_TRAIL_COLOR = 'rgba(183, 186, 3, 1)';
-export const CYCLING_COLOR = 'rgba(245, 0, 225, 1)';
-export const HIKING_COLOR = 'rgb(151,51,255)';
+export const CYCLING_COLOR = 'rgba(11, 243, 42, 0.95)';
+export const HIKING_COLOR = 'rgba(25, 240, 5, 1)';
 export const WALKING_COLOR = HIKING_COLOR;
 export const SWIMMING_COLOR = 'rgb(255,51,51)';
 
